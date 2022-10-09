@@ -1,0 +1,81 @@
+.container-fluid{
+    background-image: url(../img/back-uece.jpg);
+    background-color: rgba(252, 252, 252, 0.637);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.lado-esquerdo{
+    background-color: #29cc71;
+    margin-top: 9%;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+.lado-direito{
+    margin-top: 9%;
+    background-color: rgb(236, 236, 236);   
+    margin-bottom: 9%;
+    padding-top: 40px;
+}
+
+.lado-esquerdo img{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.lado-esquerdo h1{
+    color: #fff;
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.lado-esquerdo h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 2%;
+}
+
+.lado-esquerdo p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+.lado-direito label{
+    color: #29cc71;
+    margin-top: 35px;
+    margin-bottom: 2px;
+    margin-left: 5.5%;
+    font-size: 28px;
+}
+
+.lado-direito p{
+    color: #29cc71;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.btn-login{
+    margin-top: 45px;
+    height: 60px;
+    font-size: 28px;
+    width: 90%;
+    margin-left: 5.5%;
+    background-color: #29cc71;
+    border: none;
+}
+
+.bloco-input input{
+    width: 90%;
+    margin-left: 5.5%;
+    height: 50px;
+    box-shadow: 3.5px 3.5px rgba(46, 46, 46, 0.274);
+}

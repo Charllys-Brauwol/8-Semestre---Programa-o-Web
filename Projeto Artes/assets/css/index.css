@@ -1,0 +1,31 @@
+.banner{      
+    background: linear-gradient(to right, #354e3b 0%, #067e41 50%, #008442 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-esquerdo{
+    padding-top: 20px;
+}
+
+.menu-direito{
+    margin-top: -60px;
+}
+
+.menu-esquerdo span{
+    padding-left: 20px;
+    color: #008442;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.linha-vertical {
+    border-left: 3px solid;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    height: 20px;
+  }
+
+  .menu-esquerdo a{
+    text-decoration:none;
+  }

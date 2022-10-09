@@ -1,0 +1,221 @@
+.toolbar {
+    background-color: #29cc71;
+}
+
+.toolbar img {
+    width: 85%;
+    text-align: left;
+}
+
+.toolbar-direito p {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: right;
+    margin-bottom: -0.5%;
+    padding-top: 15px;
+}
+
+
+.toolbar-direito {
+    text-align: right;
+}
+
+.toolbar-direito h2 {
+    font-size: 25px;
+    color: #fff;
+    text-align: right;
+}
+
+.toolbar-direito-img {
+    width: 8.3%;
+    text-align: right;
+    padding-top: 0.5%;
+    padding-right: 15px;
+    margin-bottom: 0.5%;
+}
+
+#toolbar-direito-p {
+    margin-top: -3%;
+    margin-bottom: 1%;
+}
+
+.menu-direito {
+    background-color: #d9d9d9;
+    min-height: 100vh;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.btn-inicio {
+    margin-top: 3%;
+    background-color: #fff;
+    color: #29cc71;
+    min-width: 100%;
+    border-radius: 0%;
+}
+
+.btn-gerais {
+    background-color: #29cc71;
+    color: #fff;
+    min-width: 100%;
+    border-radius: 0%;
+}
+
+.btn-sair {
+    background-color: #ff9820;
+    color: #fff;
+    min-width: 100%;
+    border-radius: 0%;
+}
+
+.info-cima-direito p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.info-cima-esquerda {
+    margin-top: 3%;
+}
+
+.btn-frequencias {
+    background-color: #29cc71;
+    color: #fff;
+    margin-right: 5%;
+    width: 35%;
+    font-size: larger;
+}
+
+.btn-notas {
+    background-color: #ff9820;
+    color: #fff;
+    width: 35%;
+    font-size: larger;
+}
+
+.disciplinas {
+    background-color: #eeeeee;
+    margin-left: 32px;
+    width: 95%;
+    -webkit-box-shadow: 5px 5px 21px -4px #000000;
+    box-shadow: 5px 5px 21px -4px #000000;
+    border-radius: 7px;
+}
+
+.disciplinas table {
+    margin-top: 18px;
+
+
+}
+
+.verde {
+    background-color: #29cc71;
+}
+
+.branca {
+    background-color: #fff;
+}
+
+.verde td {
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.branca td {
+    color: #29cc71;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.info-disciplinas {
+    margin-top: 35px;
+    margin-left: 35px;
+    padding-left: 30px;
+    width: 95%;
+    padding-bottom: 25px;
+}
+
+.laranja {
+    background-color: #ff9820;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 25px;
+    width: 22%;
+    border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 21px -4px #000000;
+    box-shadow: 5px 5px 21px -4px #000000;
+}
+
+.laranja p {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.azul {
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 25px;
+    width: 22%;
+    border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 21px -4px #000000;
+    box-shadow: 5px 5px 21px -4px #000000;
+}
+
+.azul p {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.preto {
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 25px;
+    width: 22%;
+    border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 21px -4px #000000;
+    box-shadow: 5px 5px 21px -4px #000000;
+}
+
+.preto p {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.vermelho {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 25px;
+    width: 22%;
+    border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 21px -4px #000000;
+    box-shadow: 5px 5px 21px -4px #000000;
+}
+
+.vermelho p {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.rodape {
+    background-color: #29cc71;
+    padding-bottom: 17px;
+}
