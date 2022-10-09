@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 - JS</title>
+    
+</head>
+<body>
+    <p id="mensagem"> Aqui</p>
+    <button onclick = "escrever();">Escrever</button>
+    <button onmouseover="escrever2();">Passar o Mouser</button>
+    <button onkeypress="escrever3();">Pressionou teclado</button>
+
+    <script>
+        //SAÍDAS
+        //console.log("Charllys");
+        //alert("Charllys");
+        //document.getElementById("mensagem").innerHTML = "Olá, eu!";
+        
+        //VARIAVEIS
+        //LET 
+        //CONST
+        //VAR
+
+        //OPERADORES
+        //+,-,* ...
+
+        function escrever(){
+            document.getElementById('mensagem').innerHTML = "Charllys Brauwol";
+        }
+        function escrever2(){
+            document.getElementById('mensagem').innerHTML = "Passou o Mouse";
+        }
+        function escrever3(){
+            document.getElementById('mensagem').innerHTML = "Teclado";
+        }
+    </script>
+</body>
+</html>
