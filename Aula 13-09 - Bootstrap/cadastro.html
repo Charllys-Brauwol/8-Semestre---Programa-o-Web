@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <script src="assets/js/validacoes.js"></script>
+    <title>Cadastro</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-3 col-md-6 bloco-login">
+                
+                <h3>Cadastre-se</h3>
+
+                <div  class="alert alert-danger col-md-12" id="erro" hidden>
+
+                </div>
+                <form id="formcadastro" onsubmit="return false">
+
+                    <hr>
+                    <div class="bloco-input">
+                        <label class="form-label">Nome</label>
+                        <input type="text" class="form-control" name="nome" id="nome">
+                    </div>
+
+                    <div class="bloco-input">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="bloco-input">
+                        <label class="form-label">Senha</label>
+                        <input type="password" class="form-control" name="senha" id="senha">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="bloco-input">
+                                <label class="form-label">Estado</label>
+                                <select class="form-control" id="estado" name="estado" onchange="selecionarEstado();">
+                                    <option value="">Selecione...</option>
+                                    <option value="ce">Ceará</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="ma">Maranhão</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="bloco-input">
+                                <label class="form-label">Cidade</label>
+                                <select class="form-control" id="cidade" name="cidade" disabled>
+                                    <option value="mbc">Mombaça</option>
+                                    <option value="aco">Acopiara</option>
+                                    <option value="for">Fortaleza</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="offset-md-1 col-md-10">
+                            <button class="btn btn-success col-md-12 btn-salvar" onclick="validarCadastro();">Salvar</button>
+                        </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

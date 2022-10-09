@@ -1,0 +1,39 @@
+.bloco-login{
+    background-color: #297baa;
+    margin-top: 10%;
+    border-radius: 25px 2px 25px 2px;
+    padding-bottom: 40px;
+}
+
+.bloco-login h3{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.bloco-login hr{
+    color: #fff;
+
+}
+
+.bloco-input label{
+    color: #fff;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.btn-salvar{
+    margin-top: 25px;
+    height: 50px;
+    font-size: 20px;
+    min-width: 100%;
+}
+
+.container-fluid{
+    background-image: url('../img/fundo.jpg');
+    height: 100vh;
+}
+
