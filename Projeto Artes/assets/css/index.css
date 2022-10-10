@@ -1,31 +1,25 @@
-.banner{      
-    background: linear-gradient(to right, #354e3b 0%, #067e41 50%, #008442 100%);
-    padding-top: 20px;
-    padding-bottom: 20px;
+.cabecalho{
+    min-height: 100%;
+    position: relative;
 }
 
-.menu-esquerdo{
-    padding-top: 20px;
+.esquerda{
+    text-align: left;
+    padding-left: 25px;
 }
 
-.menu-direito{
-    margin-top: -60px;
+.esquerda h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
-.menu-esquerdo span{
-    padding-left: 20px;
-    color: #008442;
-    font-size: 15px;
-    font-weight: normal;
+.direita{
+    text-align: right;
+    padding-right: 55px;
+    margin-top: 20px;
 }
-
-.linha-vertical {
-    border-left: 3px solid;
-    box-sizing: border-box;
-    margin: 10px 10px 10px 10px;
-    height: 20px;
-  }
-
-  .menu-esquerdo a{
+.direita a{
+    margin-left: 55px;
     text-decoration:none;
-  }
+    color: inherit;
+}
